@@ -5,239 +5,236 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Adham Hegazy — Data Analyst</title>
 <style>
-  :root{
-    --ink:#eef2ee;
-    --paper:#0d1210;
-    --card:#141b18;
-    --line:#28322d;
-    --accent:#5fd39c;
-    --accent-soft:#152820;
-    --mono: 'IBM Plex Mono', 'Courier New', monospace;
-    --sans: 'Inter', -apple-system, sans-serif;
-  }
-  *{box-sizing:border-box; margin:0; padding:0;}
-  body{
-    background:var(--paper);
-    color:var(--ink);
-    font-family:var(--sans);
-    line-height:1.5;
-  }
-  a{color:inherit;}
-  .wrap{max-width:920px; margin:0 auto; padding:0 24px;}
-
-  header{
-    padding:90px 0 60px;
-    border-bottom:1px solid var(--line);
-  }
-  .eyebrow{
-    font-family:var(--mono);
-    font-size:13px;
-    letter-spacing:.08em;
-    text-transform:uppercase;
-    color:var(--accent);
-    margin-bottom:18px;
-  }
-  h1{
-    font-size:clamp(2.4rem, 6vw, 3.6rem);
-    font-weight:700;
-    letter-spacing:-0.02em;
-    line-height:1.05;
-    margin-bottom:20px;
-  }
-  header p.lede{
-    max-width:560px;
-    font-size:1.05rem;
-    color:#9aa79f;
-  }
-  .stats{
-    display:flex;
-    gap:40px;
-    margin-top:44px;
-    flex-wrap:wrap;
-  }
-  .stat .num{
-    font-family:var(--mono);
-    font-size:1.8rem;
-    font-weight:600;
-    color:var(--accent);
-  }
-  .stat .label{
-    font-size:.8rem;
-    color:#7d8a82;
-    text-transform:uppercase;
-    letter-spacing:.05em;
-  }
-
-  section{padding:64px 0; border-bottom:1px solid var(--line);}
-  section h2{
-    font-family:var(--mono);
-    font-size:.85rem;
-    letter-spacing:.08em;
-    text-transform:uppercase;
-    color:#7d8a82;
-    margin-bottom:28px;
-  }
-
-  .project{
-    background:var(--card);
-    border:1px solid var(--line);
-    border-radius:6px;
-    padding:32px;
-    margin-bottom:24px;
-    box-shadow:0 20px 40px -24px rgba(0,0,0,.6);
-  }
-  .project:last-child{margin-bottom:0;}
-  .project-head{
-    display:flex;
-    justify-content:space-between;
-    align-items:baseline;
-    gap:16px;
-    margin-bottom:12px;
-    flex-wrap:wrap;
-  }
-  .project h3{
-    font-size:1.3rem;
-    font-weight:700;
-  }
-  .tag{
-    font-family:var(--mono);
-    font-size:.72rem;
-    padding:4px 10px;
-    background:var(--accent-soft);
-    color:var(--accent);
-    border-radius:20px;
-    white-space:nowrap;
-  }
-  .project p{
-    color:#9aa79f;
-    margin-bottom:18px;
-    max-width:640px;
-  }
-  .findings{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(160px,1fr));
-    gap:14px;
-    border-top:1px dashed var(--line);
-    padding-top:18px;
-  }
-  .finding .num{
-    font-family:var(--mono);
-    font-weight:700;
-    color:var(--accent);
-    font-size:1.1rem;
-  }
-  .finding .label{
-    font-size:.78rem;
-    color:#7d8a82;
-  }
-
-  .skills{
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-  }
-  .skill{
-    font-family:var(--mono);
-    font-size:.8rem;
-    padding:7px 14px;
-    background:var(--card);
-    border:1px solid var(--line);
-    border-radius:4px;
-  }
-
-  footer{
-    padding:60px 0 90px;
-    text-align:center;
-    color:#7d8a82;
-    font-size:.9rem;
-  }
-  footer a{
-    color:var(--accent);
-    font-weight:600;
-    text-decoration:underline;
-  }
+:root{
+--ink:#eef2ee;
+--paper:#0d1210;
+--card:#141b18;
+--line:#28322d;
+--accent:#5fd39c;
+--accent-soft:#152820;
+--mono: 'IBM Plex Mono', 'Courier New', monospace;
+--sans: 'Inter', -apple-system, sans-serif;
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+body{
+background:var(--paper);
+color:var(--ink);
+font-family:var(--sans);
+line-height:1.5;
+}
+a{color:inherit;}
+.wrap{max-width:920px; margin:0 auto; padding:0 24px;}
+header{
+padding:90px 0 60px;
+border-bottom:1px solid var(--line);
+}
+.eyebrow{
+font-family:var(--mono);
+font-size:13px;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:var(--accent);
+margin-bottom:18px;
+}
+h1{
+font-size:clamp(2.4rem, 6vw, 3.6rem);
+font-weight:700;
+letter-spacing:-0.02em;
+line-height:1.05;
+margin-bottom:20px;
+}
+header p.lede{
+max-width:560px;
+font-size:1.05rem;
+color:#9aa79f;
+}
+.stats{
+display:flex;
+gap:40px;
+margin-top:44px;
+flex-wrap:wrap;
+}
+.stat .num{
+font-family:var(--mono);
+font-size:1.8rem;
+font-weight:600;
+color:var(--accent);
+}
+.stat .label{
+font-size:.8rem;
+color:#7d8a82;
+text-transform:uppercase;
+letter-spacing:.05em;
+}
+section{padding:64px 0; border-bottom:1px solid var(--line);}
+section h2{
+font-family:var(--mono);
+font-size:.85rem;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:#7d8a82;
+margin-bottom:28px;
+}
+.project{
+background:var(--card);
+border:1px solid var(--line);
+border-radius:6px;
+padding:32px;
+margin-bottom:24px;
+box-shadow:0 20px 40px -24px rgba(0,0,0,.6);
+}
+.project:last-child{margin-bottom:0;}
+.project-head{
+display:flex;
+justify-content:space-between;
+align-items:baseline;
+gap:16px;
+margin-bottom:12px;
+flex-wrap:wrap;
+}
+.project h3{
+font-size:1.3rem;
+font-weight:700;
+}
+.tag{
+font-family:var(--mono);
+font-size:.72rem;
+padding:4px 10px;
+background:var(--accent-soft);
+color:var(--accent);
+border-radius:20px;
+white-space:nowrap;
+}
+.project p{
+color:#9aa79f;
+margin-bottom:18px;
+max-width:640px;
+}
+.project-image{
+width:100%;
+border-radius:6px;
+border:1px solid var(--line);
+margin-bottom:18px;
+display:block;
+}
+.findings{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(160px,1fr));
+gap:14px;
+border-top:1px dashed var(--line);
+padding-top:18px;
+}
+.finding .num{
+font-family:var(--mono);
+font-weight:700;
+color:var(--accent);
+font-size:1.1rem;
+}
+.finding .label{
+font-size:.78rem;
+color:#7d8a82;
+}
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+.skill{
+font-family:var(--mono);
+font-size:.8rem;
+padding:7px 14px;
+background:var(--card);
+border:1px solid var(--line);
+border-radius:4px;
+}
+footer{
+padding:60px 0 90px;
+text-align:center;
+color:#7d8a82;
+font-size:.9rem;
+}
+footer a{
+color:var(--accent);
+font-weight:600;
+text-decoration:underline;
+}
 </style>
 </head>
 <body>
-
 <div class="wrap">
-  <header>
-    <div class="eyebrow">Adham Hegazy · Data Analyst</div>
-    <h1>Numbers don't lie.<br>I make sure they talk.</h1>
-    <p class="lede">I turn messy, raw data into dashboards, insights, and decisions. Trained through AMIT's data analysis diploma, with hands-on experience working with real operational data in a compliance and verification role. Below is a set of self-directed projects showing how I clean, analyze, and report on data end to end.</p>
-    <div class="stats">
-      <div class="stat"><div class="num">3</div><div class="label">Projects</div></div>
-      <div class="stat"><div class="num">1,700+</div><div class="label">Records Analyzed</div></div>
-      <div class="stat"><div class="num">9</div><div class="label">Charts Built</div></div>
-    </div>
-  </header>
-
-  <section>
-    <h2>Selected Work</h2>
-
-    <div class="project">
-      <div class="project-head">
-        <h3>Retail Sales Dashboard</h3>
-        <span class="tag">Excel · Power BI · Reporting</span>
-      </div>
-      <p>Analyzed a year of retail transactions across five regions and four categories to identify revenue drivers and hidden profitability gaps.</p>
-      <div class="findings">
-        <div class="finding"><div class="num">1.57M EGP</div><div class="label">Total revenue analyzed</div></div>
-        <div class="finding"><div class="num">18.8%</div><div class="label">Margin on top revenue category</div></div>
-        <div class="finding"><div class="num">Nov</div><div class="label">Peak sales month identified</div></div>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-head">
-        <h3>Customer Data Cleaning</h3>
-        <span class="tag">Data Cleaning · Excel</span>
-      </div>
-      <p>Took a raw customer dataset full of duplicates, inconsistent text formatting, and invalid values, and produced an analysis-ready file with full documentation of every change.</p>
-      <div class="findings">
-        <div class="finding"><div class="num">315 → 300</div><div class="label">Rows after deduplication</div></div>
-        <div class="finding"><div class="num">−76%</div><div class="label">Missing values reduced</div></div>
-        <div class="finding"><div class="num">7</div><div class="label">Cleaning rules applied</div></div>
-      </div>
-    </div>
-
-    <div class="project">
-      <div class="project-head">
-        <h3>Document Verification Analysis</h3>
-        <span class="tag">Process Analysis · Operations</span>
-      </div>
-      <p>Analyzed 600 document verification submissions to surface approval bottlenecks and regional processing delays — directly informed by real experience in rider document verification.</p>
-      <div class="findings">
-        <div class="finding"><div class="num">62.8%</div><div class="label">Overall approval rate</div></div>
-        <div class="finding"><div class="num">Expired Docs</div><div class="label">Top rejection reason</div></div>
-        <div class="finding"><div class="num">12.7 hrs</div><div class="label">Slowest region processing time</div></div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Skills</h2>
-    <div class="skills">
-      <span class="skill">Data Analysis</span>
-      <span class="skill">Data Cleaning</span>
-      <span class="skill">Data Visualization</span>
-      <span class="skill">Excel (Advanced)</span>
-      <span class="skill">Google Sheets</span>
-      <span class="skill">Power BI</span>
-      <span class="skill">Pivot Tables</span>
-      <span class="skill">Power Query</span>
-      <span class="skill">Descriptive Statistics</span>
-      <span class="skill">Dashboard Design</span>
-      <span class="skill">Report Writing</span>
-      <span class="skill">Trend Analysis</span>
-    </div>
-  </section>
-
-  <footer>
-    Adham Hegazy · Available for freelance data analysis work.<br>
-    <a href="mailto:adhm2592001@gmail.com">adhm2592001@gmail.com</a>
-  </footer>
+<header>
+<div class="eyebrow">Adham Hegazy · Data Analyst</div>
+<h1>Numbers don't lie.<br>I make sure they talk.</h1>
+<p class="lede">I turn messy, raw data into dashboards, insights, and decisions. Trained through AMIT's data analysis diploma, with hands-on experience working with real operational data in a compliance and verification role. Below is a set of self-directed projects showing how I clean, analyze, and report on data end to end.</p>
+<div class="stats">
+<div class="stat"><div class="num">3</div><div class="label">Projects</div></div>
+<div class="stat"><div class="num">1,700+</div><div class="label">Records Analyzed</div></div>
+<div class="stat"><div class="num">9</div><div class="label">Charts Built</div></div>
 </div>
-
+</header>
+<section>
+<h2>Selected Work</h2>
+<div class="project">
+<div class="project-head">
+<h3>Retail Sales Dashboard</h3>
+<span class="tag">Excel · Power BI · Reporting</span>
+</div>
+<p>Analyzed a year of retail transactions across five regions and four categories to identify revenue drivers and hidden profitability gaps.</p>
+<img src="images/retail-sales-dashboard.png" alt="Retail Sales Dashboard - Power BI report showing revenue by region and category" class="project-image">
+<div class="findings">
+<div class="finding"><div class="num">1.57M EGP</div><div class="label">Total revenue analyzed</div></div>
+<div class="finding"><div class="num">18.8%</div><div class="label">Margin on top revenue category</div></div>
+<div class="finding"><div class="num">Nov</div><div class="label">Peak sales month identified</div></div>
+</div>
+</div>
+<div class="project">
+<div class="project-head">
+<h3>Customer Data Cleaning</h3>
+<span class="tag">Data Cleaning · Excel</span>
+</div>
+<p>Took a raw customer dataset full of duplicates, inconsistent text formatting, and invalid values, and produced an analysis-ready file with full documentation of every change.</p>
+<img src="images/customer-data-cleaning.png" alt="Customer Data Cleaning - before and after view of the cleaned dataset" class="project-image">
+<div class="findings">
+<div class="finding"><div class="num">315 → 300</div><div class="label">Rows after deduplication</div></div>
+<div class="finding"><div class="num">−76%</div><div class="label">Missing values reduced</div></div>
+<div class="finding"><div class="num">7</div><div class="label">Cleaning rules applied</div></div>
+</div>
+</div>
+<div class="project">
+<div class="project-head">
+<h3>Document Verification Analysis</h3>
+<span class="tag">Process Analysis · Operations</span>
+</div>
+<p>Analyzed 600 document verification submissions to surface approval bottlenecks and regional processing delays — directly informed by real experience in rider document verification.</p>
+<img src="images/document-verification.png" alt="Document Verification Analysis - approval rates and processing time by region" class="project-image">
+<div class="findings">
+<div class="finding"><div class="num">62.8%</div><div class="label">Overall approval rate</div></div>
+<div class="finding"><div class="num">Expired Docs</div><div class="label">Top rejection reason</div></div>
+<div class="finding"><div class="num">12.7 hrs</div><div class="label">Slowest region processing time</div></div>
+</div>
+</div>
+</section>
+<section>
+<h2>Skills</h2>
+<div class="skills">
+<span class="skill">Data Analysis</span>
+<span class="skill">Data Cleaning</span>
+<span class="skill">Data Visualization</span>
+<span class="skill">Excel (Advanced)</span>
+<span class="skill">Google Sheets</span>
+<span class="skill">Power BI</span>
+<span class="skill">Pivot Tables</span>
+<span class="skill">Power Query</span>
+<span class="skill">Descriptive Statistics</span>
+<span class="skill">Dashboard Design</span>
+<span class="skill">Report Writing</span>
+<span class="skill">Trend Analysis</span>
+</div>
+</section>
+<footer>
+Adham Hegazy · Available for freelance data analysis work.<br>
+<a href="mailto:adhm2592001@gmail.com">adhm2592001@gmail.com</a>
+</footer>
+</div>
 </body>
 </html>
